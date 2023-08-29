@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header class="header" id="header">
+            <a class="logo" href="index.html">Personal <span>Blog</span></a>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            <nav class="navbar">
+                <a href="#home" style="--i:0">Home</a>
+                <a href="#hobby" style="--i:1">Hobby</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#contact" style="--i:3">Contact</a>
+            </nav>
+        </header>
+
+        <!-- body -->
+        <!-- home deisgn -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Ron Justin</h1>
+                <h3>And I'm a <span>Web Developer</span></h3>
+                <p>Your go-to source for Web Developing inspiration and insights. Join us as we explore the fascinating world of Web Developing through engaging tutorial, helpful tips, and thought-provoking discussions.</p>
+            </div>
+            <div>
+                <img src="img.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- hobby design -->
+        <section class="hobby" id="hobby">
+            <div>
+                <img src="img2.jpg" alt="">
+            </div>
+            <div class="hobbies-content">
+                <h3>Playing <span>Table Tennis</span></h3>
+                <h1>Where a small ball creates big moments of joy.</h1>
+            </div>
+        </section>
+        
+        <!-- about design -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <h3>ABOUT <span>ME</span></h3>
+                <div>
+                    <p>Hi my name is <span>Ron Justin</span> and im here to share my skill from learning by watching in youtube.</p>
+                </div>
+                <div>
+                    <p>I am passionate about creating <span>Website</span> and playing <span>Table Tennis</span>. My mission is to 
+                        inspire and education my readers through types of content that i create.</p>
+                </div>
+                <div>
+                    <p>Thank you for visiting My Personal Blog! I'm excited to share my insights and experiences with you. 
+                        Feel free to explore my articles and don't hesitate to reach out with any questions or suggestions.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <form action="">
+                <h1>Send me a <span>Message</span></h1>
+                <div class="contact-content">
+                    <input name="nameInput" type="text" placeholder="Name" required>
+                    <input name="email"type="email" placeholder="Email">
+                    <textarea placeholder="Type youre message here."></textarea>
+                    <button>SEND</button>
+                </div>
+            </form>
+        </section>
+
+    </body>
+</html>
